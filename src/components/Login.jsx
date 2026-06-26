@@ -1,19 +1,16 @@
-import "./Login.css";
-
+import './Login.css'
+ 
 function Login() {
-    return (
-      <>
-        <h2>Login</h2>
-  
-        <label>Usuário</label>
-        <input type="text" />
-  
-        <label>Senha</label>
-        <input type="password" />
-  
-        <button>Entrar</button>
-      </>
-    );
-  }
-  
-  export default Login;
+  return (
+    <div className="login">
+      <h2>Login</h2>
+      <input type="text" placeholder="Usuário" />
+      <input type="password" placeholder="Senha" />
+      <button>Entrar</button>
+      <a href="#">Esqueceu a senha?</a>
+    </div>
+  )
+}
+ 
+export default Login
+ 

@@ -1,59 +1,95 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .login-container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .login-box {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .login-box h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .login-box label {
-    margin-top: 10px;
-    font-size: 14px;
-  }
-  
-  .login-box input {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    outline: none;
-  }
-  
-  .login-box input:focus {
-    border-color: #4a90e2;
-  }
-  
-  .login-box button {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #4a90e2;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .login-box button:hover {
-    background-color: #357bd8;
-  }
+.app {
+  font-family: sans-serif;
+}
+ 
+.card-prod {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 45px 30px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+ 
+.card-prod .nome {
+  margin: 0;
+  font-size: 45px;
+  font-weight: 500;
+}
+ 
+.card-prod .preco {
+  margin: 50px 0 0;
+  font-size: 35px;
+  color: #888;
+}
+ 
+.funcionario {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 50px 24px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+ 
+.funcionario p {
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+
+
+.login {
+  max-width: 750px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+ 
+.login h2 {
+  font-size: 75px;
+  font-weight: 750;
+  margin: 0 0 4px;
+  text-align: center;
+  color: #333;
+}
+ 
+.login input {
+  padding: 15px 10px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+}
+ 
+.login input:focus {
+  border-color: #000000;
+}
+ 
+.login button {
+  padding: 20px;
+  background: #2941c9;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+ 
+.login button:hover {
+  background: #000000;
+}
+ 
+.login a {
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+ 
+.login a:hover {
+  text-decoration: underline;
+}
+ 

@@ -1,7 +1,22 @@
-.titulo {
-    background-color: black;
-}
 
-.titulo h1,h2{
-    color: white;
+.header {
+  max-width: 10000px;
+  margin: 0 auto;
+  background: #71b1cf;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 50px 25px;
 }
+ 
+.header h1 {
+  font-size: 65px;
+  font-weight: 800;
+  margin: 30;
+}
+ 
+.header p {
+  font-size: 50px;
+  color: #000000;
+  margin: 50px 0 0;
+}
+ 
